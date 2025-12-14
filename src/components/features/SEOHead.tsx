@@ -1,6 +1,4 @@
 
-import Head from './Head';
-
 interface SEOProps {
   title?: string;
   description?: string;
