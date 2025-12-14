@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUp, Instagram, Mail, Phone } from 'lucide-react';
+import { ArrowUp, Instagram, Music2, Music, Mail, Phone } from 'lucide-react';
 import { Button } from '@/components/ui';
 import { socialLinks } from '@/data/social';
 import { fadeInUp } from '@/utils/animations';
@@ -12,18 +12,18 @@ const Footer: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const getSocialIcon = (platform: string) => {
-    switch (platform) {
-      case 'instagram':
-        return <Instagram className="w-5 h-5" />;
-      case 'email':
-        return <Mail className="w-5 h-5" />;
-      case 'whatsapp':
-        return <Phone className="w-5 h-5" />;
-      default:
-        return <div className="w-5 h-5" />;
-    }
-  };
+const getSocialIcon = (platform: string) => {
+  switch (platform) {
+    case 'instagram':
+      return <Instagram className="w-5 h-5" />;
+    case 'tiktok':
+      return <Music2 className="w-5 h-5" />;
+    case 'whatsapp':
+      return <Phone className="w-5 h-5" />;
+    default:
+      return <div className="w-5 h-5" />;
+  }
+};
 
   return (
     <footer id="footer" className="bg-white border-t border-pastel-cream">
@@ -77,16 +77,38 @@ const Footer: React.FC = () => {
               Pautan Pantas
             </h3>
             <ul className="space-y-2">
-              {['About', 'Products', 'Gallery', 'Contact'].map((item) => (
-                <li key={item}>
-                  <a
-                    href={`#${item.toLowerCase()}`}
-                    className="text-neutral-gray hover:text-accent-pink transition-colors duration-200"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a
+                  href="#about"
+                  className="text-neutral-gray hover:text-accent-pink transition-colors duration-200"
+                >
+                  Tentang
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#products"
+                  className="text-neutral-gray hover:text-accent-pink transition-colors duration-200"
+                >
+                  Produk
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#social-proof"
+                  className="text-neutral-gray hover:text-accent-pink transition-colors duration-200"
+                >
+                  Galeri
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-neutral-gray hover:text-accent-pink transition-colors duration-200"
+                >
+                  Hubungi
+                </a>
+              </li>
             </ul>
           </motion.div>
 
