@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
               <Button
                 size="sm"
                 fullWidth
-                href="https://wa.me/60123456789?text=Hi! I'd like to order some cookies!"
+                href="https://wa.me/601133272447?text=Hi! I'd like to order some cookies! Here's the menu I'm interested in: https://femeskuki.vercel.app/assets/kuki-menu.jpg"
                 target="_blank"
               >
                 Order via WhatsApp
