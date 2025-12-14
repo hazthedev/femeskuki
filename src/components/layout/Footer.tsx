@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUp, Instagram, Music2, Music, Mail, Phone } from 'lucide-react';
+import { ArrowUp, Instagram, Music2, Mail, Phone } from 'lucide-react';
 import { Button } from '@/components/ui';
 import { socialLinks } from '@/data/social';
 import { fadeInUp } from '@/utils/animations';
