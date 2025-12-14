@@ -3,53 +3,53 @@ import { Product } from '@/types';
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Chocolate Chip Classic',
+    name: 'Classic Chocolate Chip',
     description: 'Our signature cookie with premium chocolate chunks and a hint of vanilla',
     price: 12.99,
-    image: '/images/cookies/chocolate-chip.jpg',
+    image: '/assets/cookies/kuki-1.jpg',
     category: 'classic',
     featured: true
   },
   {
     id: '2',
-    name: 'Rainbow Sugar Cookies',
-    description: 'Colorful, fun-shaped sugar cookies perfect for celebrations',
+    name: 'Colorful Rainbow Cookies',
+    description: 'Vibrant, fun-shaped cookies perfect for celebrations and special moments',
     price: 14.99,
-    image: '/images/cookies/rainbow-sugar.jpg',
+    image: '/assets/cookies/kuki-2.jpg',
     category: 'colorful',
     featured: true
   },
   {
     id: '3',
-    name: 'Double Chocolate Fudge',
+    name: 'Double Chocolate Delight',
     description: 'Rich, decadent cookies made with premium cocoa and chocolate chips',
     price: 13.99,
-    image: '/images/cookies/double-chocolate.jpg',
+    image: '/assets/cookies/kuki-3.jpg',
     category: 'chocolate'
   },
   {
     id: '4',
-    name: 'Pastel Macarons',
-    description: 'Delicate French macarons in beautiful pastel colors',
+    name: 'Pastel Dream Cookies',
+    description: 'Delicate cookies with beautiful pastel colors and sprinkles',
     price: 18.99,
-    image: '/images/cookies/macarons.jpg',
+    image: '/assets/cookies/kuki-4.jpg',
     category: 'delicate',
     featured: true
   },
   {
     id: '5',
-    name: 'Cookie Butter Sandwich',
-    description: 'Two soft cookies with creamy cookie butter filling',
+    name: 'Creamy Cookie Sandwich',
+    description: 'Two soft cookies with creamy buttercream filling',
     price: 15.99,
-    image: '/images/cookies/cookie-butter.jpg',
+    image: '/assets/cookies/kuki-5.jpg',
     category: 'specialty'
   },
   {
     id: '6',
-    name: 'Confetti Birthday',
-    description: 'Celebrate with our birthday cookie loaded with rainbow sprinkles',
+    name: 'Celebration Confetti',
+    description: 'Party-ready cookies loaded with rainbow sprinkles and joy',
     price: 13.99,
-    image: '/images/cookies/confetti.jpg',
+    image: '/assets/cookies/kuki-6.jpg',
     category: 'colorful'
   }
 ];

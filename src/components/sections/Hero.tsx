@@ -1,14 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui';
+import { Button, Image } from '@/components/ui';
 import { fadeInUp, cookieFloat } from '@/utils/animations';
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-pastel-pink via-pastel-cream to-pastel-blue">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/assets/cookies/kuki-1.jpg"
+          alt="Femes Kuki cookies background"
+          className="w-full h-full object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-pastel-pink/90 via-pastel-cream/80 to-pastel-blue/70" />
+      </div>
+
       {/* Floating Cookie Elements */}
       <motion.div
-        className="absolute top-20 left-10 text-6xl opacity-20"
+        className="absolute top-20 left-10 text-6xl opacity-20 z-10"
         variants={cookieFloat}
         initial="initial"
         animate="animate"
@@ -16,7 +27,7 @@ const Hero: React.FC = () => {
         🍪
       </motion.div>
       <motion.div
-        className="absolute bottom-20 right-10 text-4xl opacity-20"
+        className="absolute bottom-20 right-10 text-4xl opacity-20 z-10"
         variants={cookieFloat}
         initial="initial"
         animate="animate"
@@ -25,7 +36,7 @@ const Hero: React.FC = () => {
         🧁
       </motion.div>
       <motion.div
-        className="absolute top-40 right-20 text-5xl opacity-20"
+        className="absolute top-40 right-20 text-5xl opacity-20 z-10"
         variants={cookieFloat}
         initial="initial"
         animate="animate"
@@ -34,7 +45,7 @@ const Hero: React.FC = () => {
         🍩
       </motion.div>
 
-      <div className="container-custom text-center z-10 px-4">
+      <div className="container-custom text-center z-20 px-4 relative">
         <motion.h1
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 gradient-text"
           variants={fadeInUp}
