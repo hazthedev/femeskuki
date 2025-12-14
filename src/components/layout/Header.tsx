@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Languages } from 'lucide-react';
 import { Button } from '@/components/ui';
 import { fadeInDown, staggerContainer } from '@/utils/animations';
 import { socialLinks } from '@/data/social';
+import GoogleTranslate from '@/components/features/GoogleTranslate';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -92,8 +93,15 @@ const Header: React.FC = () => {
               ))}
             </motion.div>
 
-            {/* CTA Button - Desktop */}
-            <div className="hidden md:block">
+            {/* Right Side Actions */}
+            <div className="hidden md:flex items-center space-x-4">
+              {/* Google Translate */}
+              <div className="flex items-center space-x-2">
+                <Languages className="w-4 h-4 text-neutral-gray" />
+                <GoogleTranslate />
+              </div>
+
+              {/* CTA Button */}
               <Button
                 size="sm"
                 onClick={() => handleSmoothScroll('#contact')}
@@ -137,6 +145,11 @@ const Header: React.FC = () => {
                       {item.label}
                     </motion.a>
                   ))}
+                  <div className="flex items-center justify-center space-x-2 pt-4">
+                    <Languages className="w-4 h-4 text-neutral-gray" />
+                    <span className="text-neutral-gray">Translate:</span>
+                    <GoogleTranslate />
+                  </div>
                   <div className="pt-4 border-t border-white/10">
                     <Button
                       fullWidth
