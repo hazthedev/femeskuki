@@ -57,10 +57,10 @@ const ProductShowcase: React.FC = () => {
           variants={fadeInUp}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 gradient-text">
-            Our Cookie Gallery
+            Galeri Kuki Kami
           </h2>
           <p className="text-neutral-gray max-w-2xl mx-auto">
-            Feast your eyes on our beautiful cookie creations
+            Layarkan mata pada ciptaan biskut yang indah kami
           </p>
         </motion.div>
 
@@ -100,7 +100,7 @@ const ProductShowcase: React.FC = () => {
           transition={{ delay: 0.3 }}
         >
           <p className="text-accent-pink/60 text-sm italic">
-            Hover over the images to see the magic ✨
+            Halakan kursor ke atas imej untuk lihat sihir ✨
           </p>
         </motion.div>
       </div>

@@ -27,19 +27,19 @@ export const testimonials = [
   {
     id: '1',
     name: 'Sarah Lim',
-    message: 'The best cookies I\'ve ever tasted! The Rainbow Sugar Cookies were a huge hit at my daughter\'s birthday party.',
+    message: 'Kuki terbaik yang pernah saya rasa! Kuki Gula Pelangi menjadi hit besar di parti hari jadi anak perempuan saya.',
     rating: 5
   },
   {
     id: '2',
     name: 'Ahmad Rahman',
-    message: 'Femes Kuki never disappoints! Fresh, delicious, and beautifully packaged. Perfect for gifting.',
+    message: 'Femes Kuki tidak pernah mengecewakan! Segar, lazat, dan dibungkus dengan cantik. Sempurna untuk hadiah.',
     rating: 5
   },
   {
     id: '3',
     name: 'Emily Chen',
-    message: 'Ordered the Chocolate Chip Classic and it brought back childhood memories. Will definitely order again!',
+    message: 'Memesan Cip Coklat Klasik dan ia membawa kembali kenangan zaman kanak-kanak. Pasti akan memesan lagi!',
     rating: 5
   }
 ];
@@ -48,37 +48,37 @@ export const easterEggRewards = [
   {
     id: '1',
     clicksRequired: 10,
-    title: 'Cookie Rookie!',
-    message: 'You found the secret! You\'re on your way to becoming a cookie master! 🍪',
+    title: 'Pemula Kuki!',
+    message: 'Anda menemui rahsia! Anda sedang menjadi pakar kuki! 🍪',
     type: 'message'
   },
   {
     id: '2',
     clicksRequired: 25,
-    title: 'Cookie Explorer',
-    message: 'Wow! You\'re really clicking those cookies! Here\'s a virtual high-five! 👋',
+    title: 'Penjelajah Kuki',
+    message: 'Wah! Anda betul-betul klik kuki ini! Ini high-five maya! 👋',
     type: 'message'
   },
   {
     id: '3',
     clicksRequired: 50,
-    title: 'DISCOUNT UNLOCKED!',
-    message: 'Congratulations! Use code COOKIE50 for 10% off your next order! 🎉',
+    title: 'DISKAUN DIBUKA!',
+    message: 'Tahniah! Gunakan kod COOKIE50 untuk 10% diskaun untuk pesanan seterusnya! 🎉',
     discountCode: 'COOKIE50',
     type: 'discount'
   },
   {
     id: '4',
     clicksRequired: 75,
-    title: 'Cookie Master',
-    message: 'Incredible! Your dedication to cookies is unmatched! 🌟',
+    title: 'Master Kuki',
+    message: 'Hebat! Dedikasi anda pada kuki tiada tandingan! 🌟',
     type: 'message'
   },
   {
     id: '5',
     clicksRequired: 100,
-    title: 'SECRET MENU REVEALED!',
-    message: 'You\'ve unlocked our secret cookie: The Golden Double Chocolate with edible gold flakes! Ask for it by name! ✨',
+    title: 'MENU RAHSIA DIBONGKARKAN!',
+    message: 'Anda telah membuka kuki rahsia kami: Double Chocolate Emas dengan kelipatan emas boleh dimakan! Tanya dengan nama ini! ✨',
     type: 'secret'
   }
 ];

@@ -113,19 +113,19 @@ const CookieClickerEasterEgg: React.FC = () => {
 
                 {currentReward.discountCode && (
                   <div className="bg-accent-pink/10 rounded-xl p-4">
-                    <p className="text-sm text-neutral-gray mb-2">Your discount code:</p>
+                    <p className="text-sm text-neutral-gray mb-2">Kod diskaun anda:</p>
                     <button
                       className="font-mono font-bold text-lg text-accent-pink hover:text-accent-coral transition-colors"
                       onClick={() => copyDiscountCode(currentReward.discountCode!)}
                     >
                       {currentReward.discountCode}
                     </button>
-                    <p className="text-xs text-neutral-gray mt-2">(Click to copy)</p>
+                    <p className="text-xs text-neutral-gray mt-2">(Klik untuk salin)</p>
                   </div>
                 )}
 
                 <p className="text-sm text-neutral-gray">
-                  Total clicks: {clicks}
+                  Jumlah klik: {clicks}
                 </p>
               </div>
             </motion.div>

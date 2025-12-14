@@ -11,11 +11,11 @@ const Header: React.FC = () => {
   const [logoClicks, setLogoClicks] = useState(0);
 
   const navItems = [
-    { label: 'Home', href: '#hero' },
-    { label: 'About', href: '#about' },
-    { label: 'Products', href: '#products' },
-    { label: 'Gallery', href: '#social-proof' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Utama', href: '#hero' },
+    { label: 'Tentang', href: '#about' },
+    { label: 'Produk', href: '#products' },
+    { label: 'Galeri', href: '#social-proof' },
+    { label: 'Hubungi', href: '#contact' }
   ];
 
   useEffect(() => {
@@ -99,7 +99,7 @@ const Header: React.FC = () => {
                 onClick={() => handleSmoothScroll('#contact')}
                 pulse
               >
-                Order Now
+                Buat Pesanan Sekarang
               </Button>
             </div>
 
@@ -142,7 +142,7 @@ const Header: React.FC = () => {
                       fullWidth
                       onClick={() => handleSmoothScroll('#contact')}
                     >
-                      Order Now
+                      Buat Pesanan Sekarang
                     </Button>
                   </div>
                   <div className="flex justify-center space-x-4 pt-4">

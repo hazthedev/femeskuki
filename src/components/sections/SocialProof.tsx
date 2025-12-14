@@ -5,10 +5,10 @@ const SocialProof: React.FC = () => {
     <section id="social-proof" className="section-padding bg-white">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 gradient-text">
-          Follow Us
+          Ikuti Kami
         </h2>
         <p className="text-center text-neutral-gray max-w-3xl mx-auto">
-          Coming soon: Instagram feed and customer testimonials!
+          Akan datang: Feed Instagram dan testimonial pelanggan!
         </p>
       </div>
     </section>

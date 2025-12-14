@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
           animate="visible"
           transition={{ delay: 0.4 }}
         >
-          Delicious homemade cookies with a splash of color and a whole lot of love
+          Biskut buatan sendiri yang sedap dengan warna menarik dan penuh kasih sayang
         </motion.p>
 
         <motion.div
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
               document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            Order Now
+            Buat Pesanan Sekarang
           </Button>
           <Button
             variant="secondary"
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
               document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            View Menu
+            Lihat Menu
           </Button>
         </motion.div>
       </div>

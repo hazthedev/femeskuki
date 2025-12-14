@@ -44,8 +44,8 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-neutral-gray max-w-sm">
-              Creating delicious, colorful homemade cookies with love.
-              Fresh ingredients, unforgettable taste.
+              Mencipta biskut buatan sendiri yang lazat dan berwarna-warni dengan penuh kasih.
+              Bahan-bahan segar, rasa yang tak terlupakan.
             </p>
             <div className="flex space-x-3">
               {socialLinks.slice(0, 3).map((link) => (
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Quick Links */}
+          {/* Pautan Pantas */}
           <motion.div
             className="space-y-4"
             initial="hidden"
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
             transition={{ delay: 0.1 }}
           >
             <h3 className="font-semibold text-lg text-neutral-charcoal">
-              Quick Links
+              Pautan Pantas
             </h3>
             <ul className="space-y-2">
               {['About', 'Products', 'Gallery', 'Contact'].map((item) => (
@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
             transition={{ delay: 0.2 }}
           >
             <h3 className="font-semibold text-lg text-neutral-charcoal">
-              Get in Touch
+              Hubungi Kami
             </h3>
             <div className="space-y-3">
               <a
@@ -124,10 +124,10 @@ const Footer: React.FC = () => {
               <Button
                 size="sm"
                 fullWidth
-                href="https://wa.me/601133272447?text=Hi! I'd like to order some cookies! Here's the menu I'm interested in: https://femeskuki.vercel.app/assets/kuki-menu.jpg"
+                href="https://wa.me/601133272447?text=Hi! Saya berminat untuk order cookies dari Femes Kuki. Boleh saya lihat menu dan senaraikan harga? 🍪"
                 target="_blank"
               >
-                Order via WhatsApp
+                Pesan Melalui WhatsApp
               </Button>
             </div>
           </motion.div>
@@ -143,15 +143,15 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.3 }}
         >
           <p className="text-neutral-gray text-sm">
-            © {currentYear} Femes Kuki. All rights reserved. Made with{' '}
-            <span className="text-accent-coral">❤️</span> and cookies.
+            © {currentYear} Femes Kuki. Hak cipta terpelihara. Dibuat dengan{' '}
+            <span className="text-accent-coral">❤️</span> dan kuki.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-neutral-gray hover:text-accent-pink transition-colors">
-              Privacy Policy
+              Dasar Privasi
             </a>
             <a href="#" className="text-neutral-gray hover:text-accent-pink transition-colors">
-              Terms of Service
+              Terma Perkhidmatan
             </a>
           </div>
         </motion.div>
