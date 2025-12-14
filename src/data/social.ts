@@ -13,8 +13,8 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: 'whatsapp',
-    url: 'https://wa.me/60123456789',
-    handle: '60123456789'
+    url: 'https://wa.me/601133272447',
+    handle: '+601133272447'
   },
   {
     platform: 'email',

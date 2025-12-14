@@ -111,13 +111,13 @@ const Footer: React.FC = () => {
                 <span>order@femeskuki.com</span>
               </a>
               <a
-                href="https://wa.me/60123456789"
+                href="https://wa.me/601133272447"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-neutral-gray hover:text-accent-pink transition-colors duration-200"
               >
                 <Phone className="w-5 h-5" />
-                <span>+60 123-456 789</span>
+                <span>+6011-3327 2447</span>
               </a>
             </div>
             <div className="pt-4">
